@@ -49,19 +49,19 @@ class Employee extends User
 
 $user = new User;
 
-// echo $user->showName();
+echo $user->showName();
 
-// $user->setName('Влад');
-// echo $user->name;
+$user->setName('Влад');
+echo $user->name;
 
-// $salary = $user->setSalary('100');
-// echo $salary;
+$salary = $user->setSalary('100');
+echo $salary;
 
-// $user = new User('Sergey', 26);
-// echo $user->name;
-// echo $user->age;
+$user = new User('Sergey', 26);
+echo $user->name;
+echo $user->age;
 
-// $user->setExperience(2);
+$user->setExperience(2);
 
-// $employee = new Employee;
-// echo $employee->name;
+$employee = new Employee;
+echo $employee->name;
